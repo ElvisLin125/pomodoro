@@ -55,6 +55,7 @@ class Timer extends React.Component {
             if (this.state.timerType === "work") {
                 timesCompleted++;
             }
+            alert("TIME'S UP")
         }
 
         this.setState({minutes: minutes, seconds: seconds, timesCompleted: timesCompleted});
