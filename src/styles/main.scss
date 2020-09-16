@@ -1,0 +1,12 @@
+@import './components/task.scss';
+@import './components/timer.scss';
+
+.container {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+div {
+    font-family: monospace;
+}

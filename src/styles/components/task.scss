@@ -1,0 +1,31 @@
+.check {
+    position: relative;
+    float: left;
+    height: 32px;
+    width: 10%;
+}
+.bar {
+    background-color :#ddd;
+    position: relative;
+    height: 30px;
+    width: 87%;
+    float: left;
+    top: 4px;
+}
+
+.task {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    transform: translateY(-85%);
+    font-size: 25px;
+}
+
+.progress {
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: lightseagreen;
+}

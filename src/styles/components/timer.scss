@@ -1,0 +1,57 @@
+.timerMode {
+    border-radius: 10px;
+    border: 2px solid #f44336;
+    color: white;
+    background-color: #f44336;
+    height: 30px;
+    width: 31%;
+    margin: 3px;
+    outline: none;
+    display: inline-block;
+    font-size: 100%;
+    transition: background-color 100ms linear;
+
+    &:hover {
+        //background-color: #4336F4;
+        background-color: transparent;
+        color: #f44336;
+        transition: 100ms linear;
+    } 
+}
+
+.modesContainer {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.time{
+    position: relative;
+    display: inline-block;
+    font-size: 100px;
+    text-align: center; 
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 70%;
+    margin: 10px;
+    transition: 100ms linear;
+
+    &:hover {
+        transform: translate(10px);
+        transition: 100ms linear;
+    }
+}
+
+.playback{
+    outline: none;
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 90%;
+
+    &:hover {
+        background-color: #f44336;
+        color: white;
+        transition: 100ms linear;
+    }
+}
+
