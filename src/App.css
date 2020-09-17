@@ -7,6 +7,10 @@
     width: 100vw;
 }
 
+body{
+    background-color: 1ecbe1;
+}
+
 .timerContainer {
     background-color: rgb(186, 228, 231);
     border-radius: 20px;
